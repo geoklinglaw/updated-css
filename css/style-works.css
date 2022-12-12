@@ -1,0 +1,54 @@
+
+
+body {
+    text-align: center;
+    color: #6D9886;
+    word-spacing: 0.5mm;
+    font-size: 4rem;
+    font-family: 'dimetoneregular';
+    letter-spacing: 0.4mm;
+
+    
+    background-image: url("../image/backgroundpic.jpg");
+    background-color: #F7F7F7;
+    background-size: 100%;
+    background-repeat: repeat-x;
+}
+
+@font-face {
+    font-family: 'dimetoneregular';
+    src: url('../font/dim/dimetone_400-webfont.woff') format('woff'),
+         url('../font/dim/dimetone_400-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+a {
+    color: #6D9886;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: raleway, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.3mm;
+    font-weight: 700;
+    margin-top: 0px;
+    
+}
+
+a:hover {
+    color: #393E46;
+}
+
+.navBar {
+    word-spacing: 1.3mm;
+    margin-top: 0px;
+
+}
+
+

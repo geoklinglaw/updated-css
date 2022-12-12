@@ -1,0 +1,111 @@
+
+
+body {
+    background-image: url("../image/backgroundpic.jpg");
+    background-color: #F7F7F7;
+    background-size: 100%;
+    background-repeat: repeat-x;
+    font-family: raleway;
+}
+
+.subh1 {
+    margin: -50px;
+    color: #6D9886;
+}
+
+.me {
+    margin-top: 130px;
+    line-height: 7mm;
+    text-align: center;
+    color: #393E46;
+}
+
+.h1 {
+    color: #6D9886;
+    margin-top: -18px;
+    word-spacing: 0.4mm;
+    font-size: 6rem;
+    letter-spacing: 0.4mm;
+    font-family: 'dimetoneregular';
+}
+
+@font-face {
+    font-family: 'dimetoneregular';
+    src: url('../font/dim/dimetone_400-webfont.woff') format('woff'),
+         url('../font/dim/dimetone_400-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.mainTable {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.myface {
+    height: 250px;
+    width: 250px;
+}
+
+.midsection {
+    margin-top: 20%;
+    color: #6D9886;
+    
+}
+
+.edu {
+    color: #6D9886;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.3mm;
+    font-weight: 500;
+    font-family: raleway;
+}
+
+.margin{
+    margin: 60px;
+}
+
+.navBar {
+    margin: 5px;
+    position: fixed;
+    top: 0;
+    text-indent: 70%;
+    word-spacing: 1.3mm;
+    width: 100%
+}
+
+
+
+a {
+    color: #6D9886;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: raleway, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.3mm;
+    font-weight: 700;
+    
+}
+
+a:hover {
+    color: #393E46;
+  }
+
+.skillTab {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+    color: #6D9886;
+    font-size: 2rem;
+    letter-spacing: 0.3mm;
+    font-weight: 500;
+    font-family: raleway;
+    table-layout: auto;
+
+}
