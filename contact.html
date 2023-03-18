@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\style-contact.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Raleway:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="navBar">
+        <h3>
+            <a href="index.html" class="a">About</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="works.html" class="a">Works</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="contact.html" class="a">Contact</a>
+        </h3>
+    </div>
+
+    <section class="contact" id="contact">
+        <h2 class ="header">Get In Touch!</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/xyylngw" method="POST">
+              <div class="form-control">
+                <label class = "label" for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label class = "label" for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label class = "label" for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message..."
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p class="copy footertext">Check out my socials ☺</p>
+        <p class="copy">
+          <a href="https://www.linkedin.com/in/lawgeokling/" target="_blank"><img src="image/linkedin-flat.png" class = "footericon"  alt="LinkedIn"></a>
+          <a href="https://github.com/geoklinglaw" target="_blank"><img src="image/GitHub-Mark.png" class = "footericon" alt="github"></a>
+        
+        </p>
+      </footer>
+    
+</body>
+</html>
+

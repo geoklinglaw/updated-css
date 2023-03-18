@@ -1,11 +1,15 @@
 
 
 body {
-    background-image: url("../image/backgroundpic.jpg");
+    background-image: url("../image/new.jpg");
     background-color: #F7F7F7;
     background-size: 100%;
     background-repeat: repeat-x;
     font-family: raleway;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .subh1 {
@@ -71,7 +75,6 @@ body {
 
 .navBar {
     margin: 5px;
-    position: fixed;
     top: 0;
     text-indent: 70%;
     word-spacing: 1.3mm;
@@ -109,3 +112,70 @@ a:hover {
     table-layout: auto;
 
 }
+
+.aboutme-desc {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    color: #6D9886;
+    font-size: 1.3rem;
+    letter-spacing: 0.3mm;
+    font-weight: 500;
+    font-family: raleway;
+    table-layout: auto;
+    line-height: 1.5 ;
+}
+
+.skills {
+    max-width: 58rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img {
+    padding: 1rem;
+  }
+  
+  .icon {
+    width: 8.8rem;
+    height: 8.5rem;
+  }
+
+  .icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 10px;
+    margin: 5px;
+  }
+
+  footer {
+    background-color: var(--bg-color);
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+  }
+
+
+.footertext {
+    color: #6D9886;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 0.3mm;
+    font-weight: 500;
+    font-family: raleway;
+    margin-bottom: -8px;
+}
+
+.footericon {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+  }
