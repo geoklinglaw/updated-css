@@ -102,7 +102,7 @@ a:hover {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    background-color: #fff;
+    background-color: #89c0a9;
     border: 2px solid var(--primary-color);
     border-radius: 5px;
     font-size: 1rem;
@@ -115,6 +115,7 @@ a:hover {
     background-color: var(--primary-color);
     border: 2px solid var(--primary-color);
     cursor: pointer;
+    background-color: #6D9886;
   }
 
 .footertext {
