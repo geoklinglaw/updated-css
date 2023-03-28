@@ -46,11 +46,12 @@ a:hover {
     text-align: center;
     margin-top: -3rem;
     color: #6D9886;
+    font-size: 17px;
 }
 
 .text {
     color: #6D9886;
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
     letter-spacing: 0.3mm;
     font-weight: 500;
@@ -73,7 +74,7 @@ footer {
     letter-spacing: 0.3mm;
     font-weight: 500;
     font-family: raleway;
-    margin-top: 15rem;
+    margin-top: 12rem;
 }
 
 .footericon {
@@ -81,3 +82,7 @@ footer {
     height: 50px;
     margin: 5px;
   }
+
+.next {
+    margin-top: 0cm;
+}
